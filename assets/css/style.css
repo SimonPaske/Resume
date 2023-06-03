@@ -8,20 +8,66 @@
 }
 
 .ui-menu-color-home {
-    background-color: #ff7b00;
+    background-color: #bd5b00;
 }
 
 .ui-menu-color-resume {
-    background-color: hsl(350, 69%, 42%);
+    background-color: #b10101;
 }
 
 .ui-menu-color-contact {
-    background-color: #216dfb;
+    background-color: #1767a5;
 }
 
 .ui-menu-color-download {
-    background-color: #404040;
+    background-color: #525252;
 }
+
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
+/* =================================================================Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+
 /* =================================================================Headings */
 
 header {
@@ -64,8 +110,12 @@ header {
     margin: 0;
 }
 
-.menu-container {
+.menucontainer {
     font-size: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 #nav li {
@@ -78,6 +128,7 @@ header {
     text-align: center;
     padding: 0;
 }
+
 .menuitem a {
     width: 100%;
     text-decoration: none;
@@ -101,4 +152,61 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/* =================================================================Hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(171, 171, 171, 0.3);
+    height: 120px;
+}
+
+/* =================================================================Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: #58abff;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa  ;
+    background: #8f8f8f;
+    transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #58abff;
+}
+
+#footer-details {
+    padding: 20px;
 }
