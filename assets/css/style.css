@@ -8,15 +8,15 @@
 }
 
 .ui-menu-color-home {
-    background-color: #bd5b00;
+    background-color: #139ae3;
 }
 
 .ui-menu-color-resume {
-    background-color: #8f2400;
+    background-color: #e23b03d0;
 }
 
 .ui-menu-color-contact {
-    background-color: #004a82;
+    background-color: #4ab818;
 }
 
 .ui-menu-color-download {
@@ -29,6 +29,10 @@
 
 
 .bg-color-personal-info {
+    background-color: #e4e4e4;
+}
+
+.bg-color-work-history {
     background-color: #e4e4e4;
 }
 /* =================================================================Special paddings/margins/text */
@@ -63,7 +67,7 @@ h4 {
     padding: 0 30px 30px;
     float: none;
 }
-
+.history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -282,4 +286,56 @@ footer {
 
 .progress-section {
     margin: 40px 20px;
+}
+
+/* =================================================================Work History */
+
+.history-heading {
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #e23b03d0;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #525252;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+.scroll-area {
+    overflow-x: hidden;
+    height: 40rem;
 }
