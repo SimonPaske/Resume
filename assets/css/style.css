@@ -381,6 +381,10 @@ button[type="submit"] {
     max-width: 70%;
 }
 
+div#map {
+    min-height: 360px;
+}
+
 /* =================================================================Media Queries */
 @media(min-width: 992px) {
 .center-form {

@@ -24,7 +24,7 @@
             <div class="col-md-8">
                 <div class="row no-gutters bg-color-name-title">
                     <div class="col heading">
-                        <h1 class="name">Rosie Odenkirk</h1>
+                        <h1 class="name">Simon Paske</h1>
                         <h2 class="title">Full Stack Developer</h2>
                     </div>
                 </div>
@@ -221,11 +221,21 @@
         </div>
 
     </footer>
+   <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 5,
+                center: {
+                    lat: 56.000303,
+                    lng: 10.902641
+                }
+            });
+        }
+    </script>
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script
-        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap"></script>
-    <script src="assets/js/maps.js"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8L0hjHKmiRkzyalGvsIyK2KvIUO47xPE&callback=initMap"
+        async defer></script>
 </body>
 
 </html>
