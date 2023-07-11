@@ -76,9 +76,11 @@ img {
 
 #loader {
     display: block;
-    width: 200px;
+    width: 10%;
     height: 200px;
     margin: 0 auto;
+
+    
 }
 
 
